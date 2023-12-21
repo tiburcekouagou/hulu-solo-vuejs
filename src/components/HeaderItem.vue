@@ -2,7 +2,7 @@
   <li
     class="flex flex-col items-center cursor-pointer w-20 sm:w-20 hover:text-white group">
     <Icon class="h-8 mb-1  group-hover:animate-bounce" />
-    <a class="uppercase" href="#">{{ name }}</a>
+    <a class="uppercase opacity-0 group-hover:opacity-100" href="#">{{ name }}</a>
   </li>
 </template>
 
