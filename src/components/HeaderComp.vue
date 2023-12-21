@@ -5,7 +5,9 @@
       <HeaderItem v-for="link of links" :key="link.name" :name="link.name"
         :Icon="link.icon" />
     </ul>
-    <img src="../assets/hulu.webp" alt="Logo Hulu">
+    <router-link to="/">
+      <img src="../assets/hulu.webp" alt="Logo Hulu">
+    </router-link>
   </header>
 </template>
 
